@@ -24,16 +24,17 @@ def private_panel(_):
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
-        [InlineKeyboardButton("˹ʜєʟᴘ˼", callback_data="settings_back_helper"),
-        InlineKeyboardButton("˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/NEW_Group_AVATAR_Society"),
+        [InlineKeyboardButton("🍁 ˹ʜєʟᴘ˼ 🍁", callback_data="settings_back_helper"),
+        InlineKeyboardButton("🍁 ˹sᴜᴘᴘᴏʀᴛ˼ 🍁", url="https://t.me/NEW_Group_AVATAR_Society"),
             #InlineKeyboardButton(text=_["S_B_7"], url=config.UPSTREAM_REPO),
         ],
-        [InlineKeyboardButton("˹ ϻʏ ϻᴧsᴛєʀ ˼ 👑", url=f"https://t.me/lll_AVATAR_lll")
+        [InlineKeyboardButton("🍁 ˹ ϻʏ ϻᴧsᴛєʀ ˼ 🍁", url=f"https://t.me/lll_AVATAR_lll")
 
         ],
         
     ]
     return buttons
+
 
 
 
