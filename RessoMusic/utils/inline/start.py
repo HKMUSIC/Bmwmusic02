@@ -25,16 +25,16 @@ def private_panel(_):
             )
         ],
         [InlineKeyboardButton("˹ʜєʟᴘ˼", callback_data="settings_back_helper"),
-        InlineKeyboardButton("˹ᴄʜᴧɴɴєʟ˼", url="https://t.me/ll_ABOUT_ABHI_ll"),
-        InlineKeyboardButton("˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+M4TXiFvtuo1iZmZl"),
+        InlineKeyboardButton("˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/NEW_Group_AVATAR_Society"),
             #InlineKeyboardButton(text=_["S_B_7"], url=config.UPSTREAM_REPO),
         ],
-        [InlineKeyboardButton("˹ ϻʏ ϻᴧsᴛєʀ ˼ 👑", url=f"https://t.me/ll_ABHI_PAPA_OP_ll")
+        [InlineKeyboardButton("˹ ϻʏ ϻᴧsᴛєʀ ˼ 👑", url=f"https://t.me/lll_AVATAR_lll")
 
         ],
         
     ]
     return buttons
+
 
 
 
