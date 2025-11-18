@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/shoaib910385/SonyMusic",
+    "https://github.com/Abaybots",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/itzdhruv1060")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/itzdhruv1060")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/+M4TXiFvtuo1iZmZl")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ll_ABOUT_ABHI_ll")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -86,7 +86,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/nzl4fx.mp4"
+    "START_IMG_URL", "https://files.catbox.moe/lvjptq.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/nzl4fx.mp4"
@@ -122,6 +122,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
